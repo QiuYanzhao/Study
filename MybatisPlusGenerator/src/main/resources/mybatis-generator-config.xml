@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--mybatis生成工具的帮助文档可以看：-->
+    <!--英文：http://www.mybatis.org/generator/usage/mysql.html-->
+    <!--中文：http://www.mybatis.tk/-->
+    <!--中文：http://mbg.cndocs.tk/-->
+    <context id="context" targetRuntime="MyBatis3">
+        <!--设置编码格式-->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 注释生成器配置 -->
+        <commentGenerator>
+            <!-- 是否取消所有注释 -->
+            <property name="suppressAllComments" value="false"/>
+            <!-- 是否在注释中添加数据库表和列的备注 -->
+            <property name="addRemarkComments" value="true"/>
+            <!-- 日期格式化字符串 -->
+            <property name="dateFormat" value="yyyy-MM-dd"/>
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/localhost"
+                        userId="root" password="123456"/>
+
+        <!-- Java 类型解析器配置 -->
+        <javaTypeResolver>
+            <!-- 是否将 NUMERIC 和 DECIMAL 字段转换为 Java 的 BigDecimal 类型 -->
+            <property name="forceBigDecimals" value="true"/>
+            <!-- 是否将 NULL 值转换为空字符串 -->
+            <property name="nullAsEmpty" value="false"/>
+        </javaTypeResolver>
+
+        <!--要生成的 domain 模块位置-->
+        <javaModelGenerator targetPackage="com.example.pojo" targetProject="src/main/java">
+            <property name="comments" value="true"/>
+            <!-- 是否允许生成子包 -->
+            <property name="enableSubPackages" value="true"/>
+            <!-- 是否去掉生成的 Java 模型中的属性值的首尾空格 -->
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!--要生成的 Mapper.xml 文件位置-->
+        <sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources">
+            <!-- 是否允许生成子包 -->
+            <property name="enableSubPackages" value="true"/>
+            <!-- SQL 映射文件的后缀 -->
+            <property name="fileNameSuffix" value="Mapper"/>
+        </sqlMapGenerator>
+
+        <!--要生成的 Mapper 接口类-->
+        <javaClientGenerator targetPackage="com.example.mapper" targetProject="src/main/java" type="XMLMAPPER">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <table tableName="employees" enableCountByExample="true" enableDeleteByExample="true" enableSelectByExample="true" enableUpdateByExample="true">
+            <generatedKey column="Id" sqlStatement="mysql" identity="true"/>
+        </table>
+    </context>
+</generatorConfiguration>
