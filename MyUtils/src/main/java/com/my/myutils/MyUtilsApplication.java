@@ -1,13 +1,13 @@
-package com.my.shardingdemo;
+package com.my.myutils;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ShardingDemoApplication {
+public class MyUtilsApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ShardingDemoApplication.class, args);
+        SpringApplication.run(MyUtilsApplication.class, args);
     }
 
 }

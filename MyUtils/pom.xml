@@ -10,10 +10,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.my</groupId>
-    <artifactId>ShardingDemo</artifactId>
+    <artifactId>MyUtils</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>ShardingDemo</name>
-    <description>ShardingDemo</description>
+    <name>MyUtils</name>
+    <description>MyUtils</description>
     <properties>
         <java.version>11</java.version>
     </properties>
@@ -27,16 +27,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-<!--        <dependency>-->
-<!--            <groupId>org.apache.shardingsphere</groupId>-->
-<!--            <artifactId>sharding-jdbc-spring-boot-starter</artifactId>-->
-<!--            <version>4.1.1</version>-->
-<!--        </dependency>-->
-        <dependency>
-            <groupId>io.shardingjdbc</groupId>
-            <artifactId>sharding-jdbc-core-spring-boot-starter</artifactId>
-            <version>2.0.3</version>
         </dependency>
     </dependencies>
 
