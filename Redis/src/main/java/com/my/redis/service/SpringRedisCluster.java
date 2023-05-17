@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringRedisCluster {
 
+    /**
+     * 集群配置在配置文件
+     */
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
