@@ -1,5 +1,9 @@
 package com.my.shardingdemo.pojo;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
+import lombok.ToString;
+
 import java.util.Date;
 
 /**
@@ -9,6 +13,9 @@ import java.util.Date;
  *
  * @mbg.generated do_not_delete_during_merge 2023-05-06
  */
+@ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class Employees {
     /**
      *

@@ -1,8 +1,7 @@
 package com.my.redis.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.data.redis.core.ValueOperations;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -16,16 +15,14 @@ public class SpringRedisCluster {
      * 集群配置在配置文件
      */
     @Autowired
-    private StringRedisTemplate stringRedisTemplate;
+    private RedisTemplate redisTemplate;
 
     @GetMapping("/test")
     public void testRedisCluster() {
-        ValueOperations<String, String> stringStringValueOperations =
-                stringRedisTemplate.opsForValue();
-        stringStringValueOperations.set("testK", "testV");
-        for (int i = 0; i < 20; i++) {
-            System.err.println(stringStringValueOperations.get("testK"));
-        }
+        String o = (String)redisTemplate.opsForValue().get("test");
+        System.err.println(o);
+        boolean write_contact_incr = Boolean.getBoolean(o);
+        System.err.println(write_contact_incr);
 
     }
 }
