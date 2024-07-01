@@ -4,16 +4,12 @@ import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.my.shardingdemo.mapper.CourseMapper;
 import com.my.shardingdemo.mapper.EmployeesMapper;
 import com.my.shardingdemo.pojo.Course;
-import com.my.shardingdemo.pojo.Employees;
 import com.my.shardingdemo.pojo.EmployeesExample;
 import java.util.List;
-
 import org.apache.shardingsphere.infra.hint.HintManager;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-
-import java.util.Date;
 
 @SpringBootTest
 public class MyTest {
@@ -64,6 +60,9 @@ public class MyTest {
 
     @Test
     public void insert() {
-
+        courseMapper.insert(new Course(1L, "语文", 1L, "正常"));
+        courseMapper.insert(new Course(2L, "数学", 2L, "正常"));
+        courseMapper.insert(new Course(3L, "英语", 3L, "正常"));
+        courseMapper.insert(new Course(4L, "物理", 4L, "正常"));
     }
 }
