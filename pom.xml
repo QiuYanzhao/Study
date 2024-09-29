@@ -15,6 +15,12 @@
     <packaging>pom</packaging>
     <name>MyObj</name>
     <description>MyObj</description>
+
+<!--    <modules>-->
+<!--        <module>mq</module>-->
+
+<!--    </modules>-->
+
     <properties>
         <java.version>11</java.version>
     </properties>

@@ -1,13 +1,14 @@
-package com.my.myutils;
+package com.example.mq;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MyUtilsApplicationTests {
+class MqApplicationTests {
 
-    @Test
-    void contextLoads() {
-    }
+	@Test
+	void contextLoads() {
+
+	}
 
 }
