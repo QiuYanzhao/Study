@@ -1,0 +1,62 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.17">
+  <diagram name="第 1 页" id="QZRXMfOvQ0qhkkFM07SE">
+    <mxGraphModel dx="951" dy="528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BKI_Hwuo4fXO2Y8_-eSU-2" target="BKI_Hwuo4fXO2Y8_-eSU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-7" value="签到" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="BKI_Hwuo4fXO2Y8_-eSU-6">
+          <mxGeometry x="-0.2725" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-2" value="地推销售" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="88" y="206" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BKI_Hwuo4fXO2Y8_-eSU-5" target="BKI_Hwuo4fXO2Y8_-eSU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BKI_Hwuo4fXO2Y8_-eSU-5" target="BKI_Hwuo4fXO2Y8_-eSU-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-5" value="拜访中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="206" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-8" value="拜访预警" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="159" y="134" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="BKI_Hwuo4fXO2Y8_-eSU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="199" y="212" as="sourcePoint" />
+            <mxPoint x="197" y="341" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKI_Hwuo4fXO2Y8_-eSU-10" target="BKI_Hwuo4fXO2Y8_-eSU-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="242" y="406" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-10" value="编辑店铺信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="202" y="308" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BKI_Hwuo4fXO2Y8_-eSU-11" target="BKI_Hwuo4fXO2Y8_-eSU-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-11" value="引导入驻流程" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337" y="308" width="80" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BKI_Hwuo4fXO2Y8_-eSU-5" target="BKI_Hwuo4fXO2Y8_-eSU-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="314" y="248" as="sourcePoint" />
+            <mxPoint x="387" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BKI_Hwuo4fXO2Y8_-eSU-19" value="签退" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="409" width="80" height="32" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
